@@ -1,5 +1,5 @@
-# Replicated-Key-Value-Storage-based-on-Amazon-Dynamo-Paper
-Amazon dynamo paper based replicated, fault tolerant key distributed key value storage.
+# Distributed-Key-Value-Storage-based-on-Amazon-Dynamo-Paper - Consistency, Replication, Fault Tolerance
+Amazon dynamo paper based replicated, fault tolerant distributed key value storage.
 
 The main goal is to provide both availability and linearizability at the same time. In other words, the implementation always performs read and write operations successfully even under failures. 
 At the same time, a read operation always returns the most recent value.
